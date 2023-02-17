@@ -9,6 +9,8 @@ import java.util.List;
 @Repository
 public interface LessonRepository extends CrudRepository<Lesson, Long> {
     Lesson findLessonById(long lessonId);
+
     List<Lesson> findAllByCourseId(long courseId);
+
     Lesson save(Lesson lesson);
 }
