@@ -1,0 +1,259 @@
+body{
+    margin-top: 0px;
+    background: #D9D9D9;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+}
+header div.menu{
+    height:  75px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #8960D2;
+    background-position: center;
+}
+header{
+    padding-top: 0px;
+    height: 75px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: #fbf6ff
+}
+header nav ul{
+
+    padding-right: 50px;
+    list-style-type: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+header nav ul li a:hover{
+    color: #53ff21;
+    text-decoration: underline;
+}
+header nav ul li a.incognito{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-right: -70px;
+    margin-top: -15px;
+}
+header nav ul li{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+}
+header div.menu div.picture a.icon{
+    display: block;
+    padding-top: 7px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fffe3f;
+    padding-left: 35px;
+}
+
+section.bar{
+
+    background-image: url("../img/people.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 1003px;
+    border-bottom: 5px solid black;
+}
+section.profile{
+    background-color: #ffffff;
+    height: 944px;
+    border-bottom:100px;
+}
+
+section.profile div.lk{
+    height:830px;
+    margin: 0px;
+
+}
+section.profile div.lk div.profile-left{
+    width: 40%;
+    margin-top: 70px;
+}
+section.profile div.lk div.profile-right{
+    width: 60%;
+    margin-top: 70px;
+}
+
+.rect-for-sign-in{
+    width:869px;
+    height: 491px;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    background-color:rgba(137, 96, 210, 0.2);;
+    border-radius: 50px;
+    display: block;
+}
+.sign-in{
+    padding: 250px 400px;
+    margin-left: 120px;
+}
+.sign-up{
+    padding-top:100px;
+    margin-left: 90px;
+}
+.rect-for-profile{
+
+    margin-top: 10px;
+
+    margin-right: 10%;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    background-color:rgba(137, 96, 210, 0.2);;
+    border-radius: 50px;
+}
+section.profile div.lk a.photo img{
+    display: block;
+    width:447px;
+    height: 462px;
+    padding-top: 100px;
+    padding-left:100px;
+
+}
+
+section div.profile-name{
+    padding-left: 180px;
+    display: block;
+    width: 290px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+}
+
+
+
+
+section form div.row {
+    height: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+form div.row div.col-md-6:last-child{
+    display: block;
+    align-self: center;
+    padding-right: 10px;
+}
+input{
+    display: block;
+    width: 80%;
+    text-align: left;
+    font-size: 32px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+.save-profile{
+    display: block;
+
+    align-self: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    border-right: 0px solid black;
+}
+.registration{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    border-right: 0px solid black;
+    display: block;
+
+    align-self: center;
+    text-align: center;
+}
+.data-of-person{
+    display: block;
+    align-self: center;
+    text-align: left;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    color:gray;
+}
+footer{
+    display: block;
+    height: 150px;
+    text-align: center;
+    font-size: 34px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: #7d7c7c;
+}
+
+button.save{
+    margin-bottom: 80px;
+    background-color: #C1D42C;
+    border-radius: 50px;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    border:none;
+    margin-left: 35px;
+    padding: 15px 27px;
+    font-size: 36px;
+}
+button.sign-up{
+    background-color: #C1D42C;
+    border-radius: 50px;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    border:none;
+    padding: 15px 27px;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+button:active{
+    box-shadow: none;
+}
+button.but-sign-in{
+
+    background-color: #C1D42C;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    border-radius: 50px;
+    border:none;
+    padding: 15px 27px;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-left:162px;
+}
+button.no-acc{
+    box-shadow: 4px 4px 1px  rgba(0,0,0,0.5);
+    background-color: #8960D2;
+    border-radius: 50px;
+    border:none;
+
+    padding: 15px 27px;
+    margin-right: 80px;
+    font-size: 36px;
+    color: #ffffff ;
+}
+button.save:hover{
+    background-color: #c9d390;
+
+}
+button.but-sign-in:hover{
+    background-color: #c9d390;
+
+}
+button.no-acc:hover {
+    background-color: #aa96d2;
+
+}
+button.sign-up:hover{
+    background-color: #c9d390;
+}
+
+div{
+    border:0px solid black;
+}
+div.container-fluid{
+    width: 90%;
+}
+
+
+
+
+
