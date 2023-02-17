@@ -56,19 +56,37 @@ header div.menu div.picture a.icon{
 }
 
 section.bar{
-
-    background-image: url("../img/people.png");
+    position: relative;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.7), 
+            rgba(255, 255, 255, 0.4)
+            ), 
+        url("../img/rosmol_press_wall.png");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-
+    padding-left: 12px;
+    padding-right: 12px;
     height: 1003px;
     border-bottom: 5px solid black;
 }
+
 section.profile{
     background-color: #ffffff;
     height: 944px;
     border-bottom:100px;
+}
+/* Заголовок на главной странице */
+.onboard{
+    padding-top: 8%;
+}
+.onboard h1{
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 2px black;
+    font-size: 84px;
+    height: 500px;
 }
 
 section.profile div.lk{
@@ -186,6 +204,7 @@ footer{
     background-color: #7d7c7c;
 }
 
+/* BUTTONS */
 button.save{
     margin-bottom: 80px;
     background-color: #C1D42C;
@@ -209,7 +228,6 @@ button:active{
     box-shadow: none;
 }
 button.but-sign-in{
-
     background-color: #C1D42C;
     box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
     border-radius: 50px;
@@ -245,6 +263,62 @@ button.no-acc:hover {
 button.sign-up:hover{
     background-color: #c9d390;
 }
+button.start-learning{
+    background-color: #C1D42C;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    border-radius: 50px;
+    border:none;
+    padding: 15px 27px;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-left:162px;
+    z-index: 5;
+}
+button.start-learning:hover{
+    background-color: #c9d390;
+}
+
+article{
+    background: 
+        linear-gradient(
+            rgba(133, 83, 154, 0.5),
+            rgba(137, 96, 210, 0.2)
+            );
+    
+    padding: 15px 12px;
+    padding-bottom: 5%;
+
+}
+article div.row h2{
+    color: #000000;
+    font-size: 48px;
+    /*text-shadow: 4px 4px 4px black;*/
+    text-align: left;
+    text-indent: 5%;
+    padding-top: 1%;
+}
+.pros{
+    justify-content: center;
+    margin: 0;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px black;
+    background-color: #8960D2;
+}
+.pros img{
+    display:block;
+    margin: auto;
+    height: 200px;
+}
+.pros p{
+    text-align: center;
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    /*text-shadow: 2px 2px 2px black;*/
+}
+
 
 div{
     border:0px solid black;
@@ -252,8 +326,5 @@ div{
 div.container-fluid{
     width: 90%;
 }
-
-
-
 
 
