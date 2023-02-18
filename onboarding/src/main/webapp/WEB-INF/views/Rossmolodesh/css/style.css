@@ -5,6 +5,32 @@ body{
     font-family: 'Montserrat Alternates', sans-serif;
     display: flex;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+}
+@media only screen and (max-width:1300px){
+    .menuDel {
+        display: none;
+    }
+
+}
+@media only screen and (min-width:1300px){
+    .menuBar{
+        display: none;
+    }
+}
+li.menuBar a img{
+    width: 5%;
+
+
+}
+
+
 header div.menu{
     height:  75px;
     margin-right: 0px;
@@ -23,6 +49,7 @@ header{
 header nav ul{
 
     padding-right: 50px;
+    margin-top: 15px;
     list-style-type: none;
 }
 header nav ul li a {
@@ -54,7 +81,9 @@ header div.menu div.picture a.icon{
     color: #fffe3f;
     padding-left: 35px;
 }
-
+.service , .project{
+    text-align: center;
+}
 section.bar{
 
     background-image: url("../img/people.png");
@@ -74,10 +103,16 @@ section.bar{
 
 }
 .blocks{
+    width: 1100px;
     height: 745px;
     margin-top: -70px;
     overflow: auto;
+    margin-right: 100px;
 }
+.prog{
+    width: 600px;
+}
+
 .achieve{
     width: 1800px;
     height: 135px;
@@ -151,6 +186,7 @@ section.profile div.lk{
 section.profile div.lk div.profile-left{
     width: 40%;
     margin-top: 70px;
+    object-fit: cover;
 }
 section.profile div.lk div.profile-right{
     width: 60%;
@@ -174,8 +210,11 @@ section.profile div.lk div.profile-right{
     margin-left: 90px;
 }
 .rect-for-direct{
+
     margin-top: 34px;
     height: 530px;
+    width: 500px;
+    margin-left: 40px;
     padding-left: 10px;
     box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
     background-color:rgba(137, 96, 210, 0.2);;
@@ -192,9 +231,10 @@ section.profile div.lk div.profile-right{
 }
 section.profile div.lk a.photo img{
     display: block;
-    width:447px;
+    max-width:125%;
+    object-fit: contain;
     height: 462px;
-    padding-top: 100px;
+    margin-top: 5%;
     padding-left:100px;
 
 }
@@ -293,8 +333,8 @@ button.about-achieve{
     border:none;
     padding: 10px 130px;
     font-size: 36px;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+
 
 }
 button.about-achieve:hover{
