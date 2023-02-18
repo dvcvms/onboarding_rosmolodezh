@@ -1,7 +1,7 @@
-package com.onboarding.Repository;
+package com.onboarding.repository;
 
-import com.onboarding.Entity.Status;
-import com.onboarding.Entity.User;
+import com.onboarding.entity.Status;
+import com.onboarding.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -10,6 +10,6 @@ import java.util.List;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
     User save(User user);
-    User findUserByUserId(long userId);
-    List<User> findUsersByStatus(Status status);   //получить всех сотрудников HR-ов, например
+    User findById(long userId);
+   // List<User> findUsersByStatus(Status status);   //получить всех сотрудников HR-ов, например
 }

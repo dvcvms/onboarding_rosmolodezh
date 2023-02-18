@@ -1,7 +1,9 @@
-package com.onboarding.Entity;
+package com.onboarding.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.List;
 
 @Getter
 @Setter
@@ -15,4 +17,6 @@ public class Status {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long statusId;
     private String nameStatus;
+    @OneToMany(mappedBy = "status")
+    private List<User> user;
 }

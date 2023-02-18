@@ -1,4 +1,4 @@
-package com.onboarding.Entity;
+package com.onboarding.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -17,10 +17,11 @@ public class User {
     @OneToOne
     private Status status;
     private String name;
-//    private Long subdivisionId;
-    private Long statusId;
+    @OneToOne
+    private Subdivision subdivision;
+    //private Long statusId;
 
-    public User(Long statusId) {
-        this.statusId = statusId;
-    }
+    //public User(Long statusId) {
+       // this.statusId = statusId;
+    //}
 }

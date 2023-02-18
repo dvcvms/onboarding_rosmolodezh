@@ -1,10 +1,8 @@
-package com.onboarding.Repository;
+package com.onboarding.repository;
 
-import com.onboarding.Entity.Subdivision;
+import com.onboarding.entity.Subdivision;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 @Repository
 public interface SubdivisionRepository extends JpaRepository<Subdivision, Long> {

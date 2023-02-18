@@ -1,8 +1,9 @@
-package com.onboarding.Entity;
+package com.onboarding.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
 import java.util.Set;
 
 @Getter
@@ -16,10 +17,10 @@ public class Subdivision {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long subdivisionId;
-    @OneToMany
-    private Set<User> user;
+    @OneToMany(mappedBy = "subdivision")
+    private List<User> user;
 
-    public Subdivision(Set<User> user) {
-        this.user = user;
-    }
+    //public Subdivision(Set<User> user) {
+       // this.user = user;
+    //}
 }

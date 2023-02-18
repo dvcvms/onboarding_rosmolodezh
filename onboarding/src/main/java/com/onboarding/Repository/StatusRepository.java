@@ -1,6 +1,6 @@
-package com.onboarding.Repository;
+package com.onboarding.repository;
 
-import com.onboarding.Entity.Status;
+import com.onboarding.entity.Status;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
