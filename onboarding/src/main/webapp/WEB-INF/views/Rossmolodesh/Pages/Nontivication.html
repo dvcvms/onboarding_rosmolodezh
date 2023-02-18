@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../css/bootstrap-grid.css">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/StylesForAvtorisation.css">
+  <link rel="stylesheet" href="../css/myLessons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -15,7 +15,6 @@
 </head>
 <body>
 <div class="container-fluid">
-  <!--  header-->
   <header>
     <div class = "row menu">
       <div class="col-sm-9 col-md-2 picture">
@@ -35,52 +34,42 @@
       </div>
     </div>
   </header>
-  <!--end of header-->
-  <section class="profile">
-    <div class="row ">
-      <div class="col-md-3 "></div>
-      <div class ="col-md-6 sign-in">
-        <div class="rect-for-sign-in ">
-          <form action="#">
-            <div class="row ">
-              <div class="col-md-12 save-profile">
-                Авторизация
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 save-profile">
-                Почта
-              </div>
-              <div class="col-md-6 save-profile inp-bord">
-
-                <input name="email-sign-in" type="email">
-
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 save-profile">
-                Пароль
-              </div>
-              <div class="col-md-6 save-profile inp-bord">
-                <input name="password-sign-in" type="password">
-            </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6 col-md-6 save-profile byt1 ">
-               <p align="center"> <button  type="button"   class="no-acc-2" onclick="window.location.href=''">Войти</button>
-               </p>
-              </div>
-
-              <div class="col-sm-6 col-md-6 save-profile byt2">
-                <button type="button"  class="no-acc" onclick="window.location.href='Registration.html'" >Нет аккаунта</button>
-              </div>
-            </div>
-
-          </form>
-        </div>
+  <section class="profile ">
+    <div class="row">
+      <div class="col-md-12 direct">
+        Уведомления
+        <hr width="100%" color="black" >
       </div>
-      <div class="col-md-3 otstup"></div>
     </div>
+
+    <div class="row ">
+      <div class="col-md-12 lesson-blocks">
+        <!--Сюда вставлять блоки-->
+        <div class="lesson-block">
+          <a>
+            <div class="row">
+              <div class="col-md-3 lesson-thumbnail"><img class="imgNont" src="../img/lesson_thumbnail.jpg"></div>
+              <div class="col-md-9 ">
+                <div class="row ">
+                  <div class="col-md-12 bigrec">
+                    Урок 1. Введение
+                  </div>
+                </div>
+                <div class="row ">
+                  <div class="col-md-12 smallrec">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt ducimus, ea enim esse ex natus nemo neque non placeat quasi quos sapiente voluptate? At cumque deleniti nulla quis veritatis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--Сюда вставлять блоки-->
+      </div>
+    </div>
+
+
+
   </section>
   <footer>
     <div class="row" >
@@ -91,10 +80,10 @@
     </div>
     <div class="row">
       <div class ="col-md-6">
-        Телефон:<br> <a href="tel:+78003337737"> 8 (800) 333-77-37</a>
+        Телефон: <a href="tel:+78003337737"> 8 (800) 333-77-37</a>
       </div>
       <div class ="col-md-6">
-        email:<br> <a href="mailto:Op@fadm.gov.ru?subject=Обращение%20в%20службу%20поддержки">Op@fadm.gov.ru</a>
+        email: <a href="mailto:Op@fadm.gov.ru?subject=Обращение%20в%20службу%20поддержки">Op@fadm.gov.ru</a>
       </div>
     </div>
   </footer>
