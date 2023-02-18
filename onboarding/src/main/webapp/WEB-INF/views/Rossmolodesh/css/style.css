@@ -4,6 +4,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Montserrat Alternates', sans-serif;
     display: flex;
+    overflow-x: hidden;
 }
 *{
     margin: 0;
