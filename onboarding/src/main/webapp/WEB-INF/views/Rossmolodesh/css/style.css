@@ -20,9 +20,76 @@ body{
 .container{
     margin: 0 auto;
 }
-@media only screen and (max-width:1300px){
+@media only screen and (min-width: 1000px) and (max-width:1300px){
+    body {
+    font-size: 36px;
+    }
+    li.menuBar a img{
+        margin-top: -18px;
+        width: 80%;
+        display: block;
+    }
+    .direct{
+        padding-left: -10px;
+        margin-left: -10px;
+    }
+    a.menuSmall{
+        display: none;
+    }
     .menuDel {
         display: none;
+    }
+    header div.menu{
+        height:  75px;
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: var(--primary-color-purple);
+        background-position: center;
+    }
+    header{
+        padding-top: 0px;
+        height: 75px;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        background-color: #fbf6ff
+    }
+    header nav ul{
+
+        padding-right: 50px;
+        margin-top: 15px;
+        list-style-type: none;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 18px;
+
+    }
+    header nav ul li a:hover{
+        color: #53ff21;
+        text-decoration: underline;
+    }
+    header nav ul li a.incognito{
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-right: -70px;
+
+    }
+    header nav ul li{
+        display: inline-block;
+        float: right;
+        margin-top:-15px;
+        margin-right: 50px;
+    }
+    header div.menu div.picture a.icon{
+        display: block;
+        padding-top: 7px;
+        text-decoration: none;
+        color: #fffe3f;
+        padding-left: 35px;
     }
 
 }
@@ -30,80 +97,169 @@ body{
     .menuBar{
         display: none;
     }
+    a.menuSmall{
+        display: none;
+    }
+    body {
+        font-size: 40px;
+    }
+    li.menuBar a img{
+        margin-top: -30px;
+        width: 80%;
+        display: block;
+        margin-left: 140px;
+    }
+    header div.menu{
+        height:  75px;
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: var(--primary-color-purple);
+        background-position: center;
+    }
+    header{
+        padding-top: 0px;
+        height: 75px;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        background-color: #fbf6ff
+    }
+    header nav ul{
+
+        padding-right: 50px;
+        margin-top: 15px;
+        list-style-type: none;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 18px;
+
+    }
+    header nav ul li a:hover{
+        color: #53ff21;
+        text-decoration: underline;
+    }
+    header nav ul li a.incognito{
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-right: -70px;
+
+    }
+    header nav ul li{
+        display: inline-block;
+        float: right;
+        margin-top:-15px;
+        margin-right: 50px;
+    }
+    header div.menu div.picture a.icon{
+        display: block;
+        padding-top: 7px;
+        text-decoration: none;
+        color: #fffe3f;
+        padding-left: 35px;
+    }
+
 }
-li.menuBar a img{
-    width: 5%;
+@media only screen and (max-width:1000px) {
+    body {
+        font-size: 34px;
+    }
+
+    .picture {
+
+    }
+    div.picture.ul{
+        list-style-type: none;
+    }
+    div.picture.ul.li {
+        text-decoration: none;
+        display: inline-block;
+    }
+    a.menuSmall{
+        /*display: block;
+        margin-top: -40px;
+        width: 100%;
+        margin-right: 0px;*/
+    }
+    .menuBar{
+        display: none;
+
+    }
+    .p-2{
+        object-position: right;
+        width: 20%;
+    }
+    .menuDel {
+        display: none;
+    }
+    header div.menu{
+        height:  75px;
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: var(--primary-color-purple);
+        background-position: center;
+    }
+    header{
+        padding-top: 0px;
+        height: 75px;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        background-color: #fbf6ff
+    }
+    header nav ul{
+
+        padding-right: 50px;
+        margin-top: 15px;
+        list-style-type: none;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 18px;
+
+    }
+    header nav ul li a:hover{
+        color: #53ff21;
+        text-decoration: underline;
+    }
+    header nav ul li a.incognito{
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-right: -70px;
+
+    }
+    header nav ul li{
+        display: inline-block;
+        float: right;
+        margin-top:-15px;
+        margin-right: 50px;
+    }
+    header div.menu div.picture a.icon{
+        display: block;
+        padding-top: 7px;
+        text-decoration: none;
+        color: #fffe3f;
+        padding-left: 35px;
+    }
+
+}
 
 
-}
 
 
-header div.menu{
-    height:  75px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color: var(--primary-color-purple);
-    background-position: center;
-}
-header{
-    padding-top: 0px;
-    height: 75px;
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    background-color: #fbf6ff
-}
-header nav ul{
 
-    padding-right: 50px;
-    margin-top: 15px;
-    list-style-type: none;
-}
-header nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-}
-header nav ul li a:hover{
-    color: #53ff21;
-    text-decoration: underline;
-}
-header nav ul li a.incognito{
-    display: block;
-    width: 70px;
-    height: 70px;
-    margin-right: -70px;
-    margin-top: -15px;
-}
-header nav ul li{
-    display: inline-block;
-    float: right;
-    margin-right: 50px;
-}
-header div.menu div.picture a.icon{
-    display: block;
-    padding-top: 7px;
-    font-size: 40px;
-    text-decoration: none;
-    color: #fffe3f;
-    padding-left: 35px;
-}
-.service , .project{
-    text-align: center;
-}
 section.bar{
-
     position: relative;
-    background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.7),
-            rgba(255, 255, 255, 0.4)
-            ),
-        url("../img/rosmol_press_wall.png");
-    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: top;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.4)), url("../img/rosmol_press_wall.png");
     padding-left: 12px;
     padding-right: 12px;
     height: 1003px;
@@ -126,7 +282,7 @@ section.bar{
     height: 135px;
     font-size: 48px;
     text-align: left;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-top: 50px;
 
 }
@@ -467,7 +623,7 @@ article div.row h2{
 }
 
 div{
-    border:0px solid black;
+    border:1px solid black;
 }
 div.container-fluid{
     width: 90%;
