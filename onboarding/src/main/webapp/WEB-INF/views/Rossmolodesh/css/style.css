@@ -396,6 +396,9 @@ section.profile{
     margin-bottom: 20px;
     background-color: rgba(137,96,210,0.8);
 }
+.oneblock:hover{
+    background-color:var(--button-color-hover-purple);
+}
 .extraRec{
     display: block;
     margin-top: 30px;
@@ -442,18 +445,7 @@ section.profile div.lk div.profile-right{
     margin-top: 70px;
 }
 
-.rect-for-sign-in{
-    width:869px;
-    height: 491px;
-    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
-    background-color:rgba(137, 96, 210, 0.2);;
-    border-radius: 50px;
-    display: block;
-}
-.sign-in{
-    padding: 250px 400px;
-    margin-left: 120px;
-}
+
 .sign-up{
     padding-top:100px;
     margin-left: 90px;
@@ -521,7 +513,6 @@ input{
 }
 .save-profile{
     display: block;
-
     align-self: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -586,43 +577,31 @@ button.about-achieve:hover{
 button:active{
     box-shadow: none;
 }
-button.but-sign-in{
-
-    background-color: var(--primary-color-green);
-    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
-    border-radius: 50px;
-    border:none;
-    padding: 15px 27px;
-    font-size: 36px;
-    margin-top: 10px;
-    margin-left:162px;
+button.sign-up:hover{
+    background-color: var(--button-color-hover-green);
 }
-button.no-acc{
-    box-shadow: 4px 4px 1px  rgba(0,0,0,0.5);
-    background-color: var(--primary-color-purple);
-    border-radius: 50px;
-    border:none;
 
-    padding: 15px 27px;
-    margin-right: 80px;
-    font-size: 36px;
-    color: #ffffff ;
-}
 button.save:hover{
     background-color: var(--button-color-hover-green);
 
 }
-button.but-sign-in:hover{
-    background-color: var(--button-color-hover-green);
+.newDirect{
+    display: block;
+    text-align: right;
+    padding-right: 10%;
+}
+button.newDir{
+    background-color: var(--primary-color-green);
+    border-radius: 50px;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    border:none;
+    padding: 10px;
 
+    font-size: 36px;
+    margin-top: 35px;
 }
-button.no-acc:hover {
-    background-color: var(--button-color-hover-purple);
 
-}
-button.sign-up:hover{
-    background-color: var(--button-color-hover-green);
-}
+
 button.start-learning{
     background-color: var(--primary-color-green);
     box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
