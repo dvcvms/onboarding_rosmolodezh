@@ -1,0 +1,91 @@
+div{
+
+}
+.lesson-thumbnail{
+
+}
+
+.lesson-thumbnail img{
+    border: 3px solid var(--primary-color-green);
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px black;
+    display: block;
+    height: 15%;
+    margin-right: auto;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.lesson-blocks{
+    display: block;
+    height: 745px;
+    margin-top: -70px;
+    overflow: auto;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+
+.achieve{
+    width: 1800px;
+    height: 135px;
+    font-size: 48px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 100px;
+
+}
+
+.lesson-block{
+    display: block;
+    margin-left:auto;
+    margin-right: 12%;
+    height: 273px;
+    margin-bottom: 20px;
+    background-color: var(--primary-color-block-purple);
+    border: 3px solid var(--primary-color-green);
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px black;
+}
+.lesson-block:hover{
+    background-color: var(--button-color-hover-purple);
+    box-shadow: 4px 4px 8px black;
+}
+
+.lesson-block a{
+    text-decoration: none;
+    color: black;
+}
+.extraRec{
+    display: block;
+    margin-top: 30px;
+    width: 850px;
+    margin-left: 20px;
+    height: 36px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+}
+.bigrec{
+    display: block;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 60px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+}
+
+.smallrec{
+    display: block;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 120px;
+    width: 90%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    overflow: auto;
+}
+
+.smallrec p{
+    font-size: 32px;
+}
