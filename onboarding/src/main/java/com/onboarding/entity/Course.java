@@ -17,6 +17,6 @@ public class Course {
     private Long id;
 
     private String name;
-    private String description; //TODO: check
+    private String description; // TODO: check
 
 }
