@@ -39,7 +39,7 @@ public class CourseController {
     public String showLessonCourses(@PathVariable("id") long id, Model model) {
         List<Lesson> lessonsByCourseId = lessonRepository.findLessonsByCourseId(id);
         model.addAttribute("lessons", lessonsByCourseId);
-        return null; // TODO: add html page
+        return "lessons"; // TODO: add html page
     }
     @GetMapping("/new")
     public String newSub(Model model) {
