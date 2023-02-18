@@ -48,82 +48,8 @@ button.no-acc:hover {
     --button-color-hover-green: #c9d390;
     --button-color-hover-purple: #aa96d2;
 }
-@media only screen and (min-width: 768px) and (max-width:1300px){
+@media only screen and (min-width: 575px) and (max-width:768px){
 
-    .rect-for-sign-in{
-
-        margin-top: 10px;
-        font-size: 36px;
-        margin-right: 10%;
-        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
-        background-color:var(--primary-color-block-purple);
-        border-radius: 50px;
-    }
-    button.no-acc-2:hover{
-        background-color: var(--button-color-hover-green);
-    }
-    button.no-acc-2{
-
-        background-color: var(--primary-color-green);
-        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
-        border-radius: 50px;
-        border:none;
-        font-size: 36px;
-    }
-    button.no-acc{
-        box-shadow: 4px 4px 1px  rgba(0,0,0,0.5);
-        background-color: var(--primary-color-purple);
-        border-radius: 50px;
-        border:none;
-
-        padding: 15px 27px;
-        margin-right: 80px;
-        font-size: 36px;
-        color: #ffffff ;
-    }
-    button.no-acc:hover {
-        background-color: var(--button-color-hover-purple);
-
-    }
-
-}
-@media only screen and (min-width:1300px){
-
-
-    .rect-for-sign-in{
-
-
-        font-size: 40px;
-        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
-        background-color:var(--primary-color-block-purple);
-        border-radius: 50px;
-    }
-    button.no-acc-2:hover{
-        background-color: var(--button-color-hover-green);
-    }
-    button.no-acc-2{
-
-        background-color: var(--primary-color-green);
-        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
-        border-radius: 50px;
-        border:none;
-        font-size: 36px;
-    }
-    button.no-acc{
-        box-shadow: 4px 4px 1px  rgba(0,0,0,0.5);
-        background-color: var(--primary-color-purple);
-        border-radius: 50px;
-        border:none;
-        font-size: 36px;
-        color: #ffffff ;
-
-    }
-    button.no-acc:hover {
-        background-color: var(--button-color-hover-purple);
-
-    }
-}
-@media only screen and (max-width:768px){
     input{
         display: block;
         width: 80%;
@@ -161,7 +87,7 @@ button.no-acc:hover {
         background-color: var(--primary-color-purple);
         border-radius: 50px;
         border:none;
-        width: 300px;
+        width: 280px;
         font-size: 36px;
         color: #ffffff ;
     }
@@ -187,7 +113,241 @@ button.no-acc:hover {
 
     }
     .byt2{
-        padding-left: 15%;
+        padding-left: 24%;
+        padding-right: 20%;
+        width: 400px;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .byt1{
+        display: block;
+        margin-bottom: 10px;
+        padding-left: 35%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1300px){
+
+    input{
+        display: block;
+        width: 80%;
+        font-size: 18px;
+        margin-left:10%;
+        margin-right: 10%;
+    }
+    section form div.row {
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    section.profile{
+        height:500px;
+    }
+    .rect-for-sign-in{
+        font-size: 28px;
+        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+        background-color:var(--primary-color-block-purple);
+        border-radius: 50px;
+    }
+    button.no-acc-2:hover{
+        background-color: var(--button-color-hover-green);
+    }
+    button.no-acc-2{
+
+        background-color: var(--primary-color-green);
+        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+        border-radius: 50px;
+        width: 150px;
+        height: 60px;
+        border:none;
+        font-size: 36px;
+    }
+    button.no-acc{
+        box-shadow: 4px 4px 1px  rgba(0,0,0,0.5);
+        background-color: var(--primary-color-purple);
+        border-radius: 50px;
+        border:none;
+        width: 280px;
+        font-size: 36px;
+        color: #ffffff ;
+    }
+    button.no-acc:hover {
+        background-color: var(--button-color-hover-purple);
+
+    }
+    .sign-in{
+        display: block;
+        margin-left: 5%;
+    }
+    .save-profile{
+        display: block;
+        align-self: center;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        border-right: 0px solid black;
+    }
+    .inp-bord{
+        font-size: 10px;
+        display: block;
+
+    }
+    .byt2{
+        padding-left: 7%;
+        padding-right: 5%;
+        width: 400px;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .byt1{
+        display: block;
+        margin-bottom: 10px;
+        padding-left: 30%;
+    }
+
+}
+@media only screen and (min-width:1300px){
+
+    input{
+        display: block;
+        width: 80%;
+        font-size: 40px;
+        margin-left:10%;
+        margin-right: 10%;
+    }
+    section form div.row {
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    section.profile{
+        height:500px;
+    }
+    .rect-for-sign-in{
+        font-size: 40px;
+        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+        background-color:var(--primary-color-block-purple);
+        border-radius: 50px;
+    }
+    button.no-acc-2:hover{
+        background-color: var(--button-color-hover-green);
+    }
+    button.no-acc-2{
+
+        background-color: var(--primary-color-green);
+        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+        border-radius: 50px;
+        width: 150px;
+        height: 60px;
+        border:none;
+        font-size: 36px;
+    }
+    button.no-acc{
+        box-shadow: 4px 4px 1px  rgba(0,0,0,0.5);
+        background-color: var(--primary-color-purple);
+        border-radius: 50px;
+        border:none;
+        width: 280px;
+        font-size: 36px;
+        color: #ffffff ;
+    }
+    button.no-acc:hover {
+        background-color: var(--button-color-hover-purple);
+
+    }
+    .sign-in{
+        display: block;
+        margin-left: 5%;
+    }
+    .save-profile{
+        display: block;
+        align-self: center;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        border-right: 0px solid black;
+    }
+    .inp-bord{
+        font-size: 10px;
+        display: block;
+
+    }
+    .byt2{
+        padding-left: 9%;
+        padding-right: 5%;
+        width: 400px;
+        margin: 10px  auto;
+        display: block;
+    }
+    .byt1{
+        display: block;
+        margin: 10px  auto;
+    }
+}
+@media only screen and (max-width:575px){
+    input{
+        display: block;
+        width: 80%;
+        margin-left:10%;
+        margin-right: 10%;
+    }
+    section form div.row {
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    section.profile{
+        height:500px;
+    }
+    .rect-for-sign-in{
+        font-size: 28px;
+        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+        background-color:var(--primary-color-block-purple);
+        border-radius: 50px;
+    }
+    button.no-acc-2:hover{
+        background-color: var(--button-color-hover-green);
+    }
+    button.no-acc-2{
+
+        background-color: var(--primary-color-green);
+        box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+        border-radius: 50px;
+        width: 150px;
+        height: 60px;
+        border:none;
+        font-size: 36px;
+    }
+    button.no-acc{
+        box-shadow: 4px 4px 1px  rgba(0,0,0,0.5);
+        background-color: var(--primary-color-purple);
+        border-radius: 50px;
+        border:none;
+        width: 280px;
+        font-size: 36px;
+        color: #ffffff ;
+    }
+    button.no-acc:hover {
+        background-color: var(--button-color-hover-purple);
+
+    }
+    .sign-in{
+        display: block;
+        margin-left: 5%;
+    }
+    .save-profile{
+        display: block;
+        align-self: center;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        border-right: 0px solid black;
+    }
+    .inp-bord{
+        font-size: 18px;
+        display: block;
+
+    }
+    .byt2{
+        padding-left: 10%;
         margin-bottom: 10px;
         display: block;
     }
