@@ -65,10 +65,82 @@ section.bar{
     height: 1003px;
     border-bottom: 5px solid black;
 }
+.direct{
+    height: 135px;
+    font-size: 48px;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+.blocks{
+    height: 745px;
+    margin-top: -70px;
+    overflow: auto;
+}
+.achieve{
+    width: 1800px;
+    height: 135px;
+    font-size: 48px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 100px;
+
+}
 section.profile{
     background-color: #ffffff;
     height: 944px;
     border-bottom:100px;
+}
+
+.lesson-photo img{
+    display: block;
+    width: 180px;
+    height: 179px;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.oneblock{
+    width: 900px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 273px;
+    margin-bottom: 20px;
+    background-color: rgba(137,96,210,0.8);
+}
+.extraRec{
+    display: block;
+    margin-top: 30px;
+    width: 850px;
+    margin-left: 20px;
+    height: 36px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+}
+.bigrec{
+    display: block;
+    margin-top: 30px;
+    width: 650px;
+    margin-left: 10px;
+    height: 60px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+}
+
+.smallrec{
+    display: block;
+    margin-top: 30px;
+    width: 650px;
+    margin-left: 10px;
+    height: 36px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
 }
 
 section.profile div.lk{
@@ -100,6 +172,14 @@ section.profile div.lk div.profile-right{
 .sign-up{
     padding-top:100px;
     margin-left: 90px;
+}
+.rect-for-direct{
+    margin-top: 34px;
+    height: 530px;
+    padding-left: 10px;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    background-color:rgba(137, 96, 210, 0.2);;
+    border-radius: 50px;
 }
 .rect-for-profile{
 
@@ -186,6 +266,7 @@ footer{
     background-color: #7d7c7c;
 }
 
+
 button.save{
     margin-bottom: 80px;
     background-color: #C1D42C;
@@ -204,6 +285,17 @@ button.sign-up{
     padding: 15px 27px;
     font-size: 36px;
     margin-bottom: 100px;
+}
+button.about-achieve{
+    background-color: #C1D42C;
+    border-radius: 50px;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    border:none;
+    padding: 10px 130px;
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
 }
 button:active{
     box-shadow: none;
