@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<p>Введите информацию для транзакции</p>
+<form th:method="POST" th:object="${newUser}" th:action="@{/save/user}">
+  <div>
+    <label for="statusId">ID статуса(роль): </label>
+    <input type="text" th:field="*{statusId}" id="statusId">
+    <br>
+
+    <label for="userId">ID пользователя: </label>
+    <input type="text" th:field="*{userId}" id="userId">
+    <br>
+
+    <label for="name">Имя пользователя: </label>
+    <input type="text" th:field="*{name}" id="name">
+    <br>
+
+    <input type="submit" value="Добавить пользователя"/>
+  </div>
+
+</form>
+</body>
+</html>
