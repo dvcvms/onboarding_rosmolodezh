@@ -297,6 +297,10 @@ button.about-achieve{
     margin-bottom: 100px;
 
 }
+button.about-achieve:hover{
+    background-color: #c9d390;
+
+}
 button:active{
     box-shadow: none;
 }
@@ -337,7 +341,6 @@ button.no-acc:hover {
 button.sign-up:hover{
     background-color: #c9d390;
 }
-
 div{
     border:0px solid black;
 }
