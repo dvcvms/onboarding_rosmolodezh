@@ -20,7 +20,7 @@ body{
 .container{
     margin: 0 auto;
 }
-@media only screen and (min-width: 1000px) and (max-width:1300px){
+@media only screen and (min-width: 768px) and (max-width:1300px){
     body {
     font-size: 36px;
     }
@@ -33,7 +33,7 @@ body{
         padding-left: -10px;
         margin-left: -10px;
     }
-    a.menuSmall{
+    .menuSmall{
         display: none;
     }
     .menuDel {
@@ -97,7 +97,7 @@ body{
     .menuBar{
         display: none;
     }
-    a.menuSmall{
+    .menuSmall{
         display: none;
     }
     body {
@@ -163,13 +163,17 @@ body{
     }
 
 }
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:768px) {
     body {
-        font-size: 34px;
+        font-size: 18px;
     }
-
+p.menuSmall{
+    display: block;
+    margin-top: -65px;
+    margin-left: 70%;
+}
     .picture {
-
+        padding-top: 20px;
     }
     div.picture.ul{
         list-style-type: none;
@@ -178,20 +182,13 @@ body{
         text-decoration: none;
         display: inline-block;
     }
-    a.menuSmall{
-        /*display: block;
-        margin-top: -40px;
-        width: 100%;
-        margin-right: 0px;*/
-    }
+
     .menuBar{
         display: none;
 
+
     }
-    .p-2{
-        object-position: right;
-        width: 20%;
-    }
+
     .menuDel {
         display: none;
     }
@@ -623,7 +620,7 @@ article div.row h2{
 }
 
 div{
-    border:1px solid black;
+    border:0px solid black;
 }
 div.container-fluid{
     width: 90%;
