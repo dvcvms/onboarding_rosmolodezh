@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>All Courses</title>
+</head>
+<body>
+Начало
+<ul>
+  <div th:each="course : ${courses}">
+    <li>
+      <p th:text="${'Course INFO: ' + course.getId()}"> VALUE </p>
+    </li>
+  </div>
+</ul>
+Конец
+</body>
+</html>
