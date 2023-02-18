@@ -279,9 +279,6 @@ p.menuSmall{
     }
 }
 
-/*button{*/
-/*    font-family: 'Montserrat Alternates', sans-serif;*/
-/*}*/
 
 
 
@@ -449,10 +446,6 @@ section.profile div.lk div.profile-right{
 }
 
 
-.sign-up{
-    padding-top:100px;
-    margin-left: 90px;
-}
 .rect-for-direct{
 
     margin-top: 34px;
@@ -523,15 +516,7 @@ input{
     font-size: 48px;
     border-right: 0px solid black;
 }
-.registration{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-    border-right: 0px solid black;
-    display: block;
 
-    align-self: center;
-    text-align: center;
-}
 .data-of-person{
     display: block;
     align-self: center;
@@ -554,15 +539,7 @@ button.save{
     padding: 15px 27px;
     font-size: 36px;
 }
-button.sign-up{
-    background-color: var(--primary-color-green);
-    border-radius: 50px;
-    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
-    border:none;
-    padding: 15px 27px;
-    font-size: 36px;
-    margin-bottom: 100px;
-}
+
 button.about-achieve{
     background-color: var(--primary-color-green);
     border-radius: 50px;
@@ -581,9 +558,7 @@ button.about-achieve:hover{
 button:active{
     box-shadow: none;
 }
-button.sign-up:hover{
-    background-color: var(--button-color-hover-green);
-}
+
 
 button.save:hover{
     background-color: var(--button-color-hover-green);
