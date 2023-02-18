@@ -37,6 +37,9 @@ li.menuBar a img{
 
 }
 
+/*button{*/
+/*    font-family: 'Montserrat Alternates', sans-serif;*/
+/*}*/
 
 header div.menu{
     height:  75px;
@@ -297,6 +300,7 @@ input{
     font-size: 32px;
     background-color: #D9D9D9;
     border-radius: 15px;
+    padding: 5px;
 }
 .save-profile{
     display: block;
