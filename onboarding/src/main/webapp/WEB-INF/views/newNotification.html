@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Увдомления для пользователя</title>
+</head>
+<body>
+
+<!--private Long notificationId;-->
+<!--private Long userId;-->
+<!--private String nameNotification;-->
+<!--private String descriptionNotification;-->
+
+<div class="container">
+    <div class="row">
+        <form th:method="POST" th:action="@{/userNotes}" th:object="${newNotification}">
+            <div class="form-group">
+                <label for="userId">ID пользователя получателя: </label>
+                <input type="text" th:field="*{userId}" id="userId"/>
+                <br/>
+
+                <label for="nameNotification">Заголовок уведомления: </label>
+                <input type="text" th:field="*{nameNotification}" id="nameNotification"/>
+                <br/>
+
+                <label for="descriptionNotification">Описание: </label>
+                <input type="text" th:field="*{descriptionNotification}" id="descriptionNotification"/>
+                <br/>
+
+                <input type="submit" value="Добавить увдомление">
+            </div>
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>
