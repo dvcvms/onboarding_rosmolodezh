@@ -92,6 +92,19 @@ body{
         padding-left: 35px;
     }
 
+
+
+
+
+    footer{
+        display: block;
+        height: 150px;
+        text-align: center;
+        font-size: 36px;
+        padding-right: 12px;
+        padding-left: 12px;
+        background-color: #7d7c7c;
+    }
 }
 @media only screen and (min-width:1300px){
     .menuBar{
@@ -161,7 +174,15 @@ body{
         color: #fffe3f;
         padding-left: 35px;
     }
-
+    footer{
+        display: block;
+        height: 150px;
+        text-align: center;
+        font-size: 40px;
+        padding-right: 12px;
+        padding-left: 12px;
+        background-color: #7d7c7c;
+    }
 }
 @media only screen and (max-width:768px) {
     body {
@@ -245,12 +266,23 @@ p.menuSmall{
         padding-left: 35px;
     }
 
+
+
+    footer{
+        display: block;
+        height: 120px;
+        text-align: center;
+        font-size: 18px;
+        padding-right: 12px;
+        padding-left: 12px;
+        background-color: #7d7c7c;
+    }
 }
 
 
 
 
-
+/*Леха*/
 section.bar{
     position: relative;
     background-size: cover;
@@ -262,8 +294,6 @@ section.bar{
     height: 1003px;
     border-bottom: 5px solid black;
 }
-
-/* Заголовок на главной странице */
 .onboard{
     padding-top: 8%;
 }
@@ -274,7 +304,54 @@ section.bar{
     font-size: 84px;
     height: 500px;
 }
+article{
+    background:
+            linear-gradient(
+                    rgba(133, 83, 154, 0.5),
+                    rgba(137, 96, 210, 0.2)
+            );
 
+    padding: 15px 12px;
+    padding-bottom: 5%;
+
+}
+article div.row h2{
+    color: #000000;
+    font-size: 48px;
+    /*text-shadow: 4px 4px 4px black;*/
+    text-align: left;
+    text-indent: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.pros{
+    justify-content: center;
+    margin: 0;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px black;
+    background-color: var(--primary-color-purple);
+}
+.pros img{
+    display:block;
+    margin: auto;
+    height: 200px;
+}
+.pros p{
+    text-align: center;
+    font-size: 24px;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    /*text-shadow: 2px 2px 2px black;*/
+}
+/*Конец лехи*/
+section.profile{
+    background-color: #ffffff;
+    height: 944px;
+    border-bottom:100px;
+}
+/*Под направления*/
 .direct{
     height: 135px;
     font-size: 48px;
@@ -293,7 +370,6 @@ section.bar{
 .prog{
     width: 600px;
 }
-
 .achieve{
     width: 1800px;
     height: 135px;
@@ -303,12 +379,6 @@ section.bar{
     padding-top: 100px;
 
 }
-section.profile{
-    background-color: #ffffff;
-    height: 944px;
-    border-bottom:100px;
-}
-
 .lesson-photo img{
     display: block;
     width: 180px;
@@ -317,7 +387,6 @@ section.profile{
     padding-left: 30px;
     padding-top: 10px;
 }
-
 .oneblock{
     width: 900px;
     display: block;
@@ -347,7 +416,6 @@ section.profile{
     border: none;
     border-radius: 50px;
 }
-
 .smallrec{
     display: block;
     margin-top: 30px;
@@ -358,7 +426,7 @@ section.profile{
     border: none;
     border-radius: 50px;
 }
-
+/*Конец направления*/
 section.profile div.lk{
     height:830px;
     margin: 0px;
@@ -477,15 +545,8 @@ input{
     font-family: 'Montserrat', sans-serif;
     color:gray;
 }
-footer{
-    display: block;
-    height: 150px;
-    text-align: center;
-    font-size: 34px;
-    padding-right: 12px;
-    padding-left: 12px;
-    background-color: #7d7c7c;
-}
+
+
 
 
 button.save{
@@ -577,47 +638,7 @@ button.start-learning:hover{
     background-color: var(--button-color-hover-green);
 }
 
-article{
-    background: 
-        linear-gradient(
-            rgba(133, 83, 154, 0.5),
-            rgba(137, 96, 210, 0.2)
-            );
 
-    padding: 15px 12px;
-    padding-bottom: 5%;
-
-}
-article div.row h2{
-    color: #000000;
-    font-size: 48px;
-    /*text-shadow: 4px 4px 4px black;*/
-    text-align: left;
-    text-indent: 5%;
-    padding-top: 1%;
-    padding-bottom: 2%;
-}
-.pros{
-    justify-content: center;
-    margin: 0;
-    padding: 12px 20px;
-    border: 2px solid black;
-    border-radius: 15px;
-    box-shadow: 4px 4px 4px black;
-    background-color: var(--primary-color-purple);
-}
-.pros img{
-    display:block;
-    margin: auto;
-    height: 200px;
-}
-.pros p{
-    text-align: center;
-    font-size: 24px;
-    color:rgb(0, 0, 0);
-    font-weight: 600;
-    /*text-shadow: 2px 2px 2px black;*/
-}
 
 div{
     border:0px solid black;
