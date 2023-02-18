@@ -11,5 +11,6 @@ import java.util.List;
 public interface UserRepository extends JpaRepository<User, Long> {
     User save(User user);
     User findById(long userId);
+
    // List<User> findUsersByStatus(Status status);   //получить всех сотрудников HR-ов, например
 }

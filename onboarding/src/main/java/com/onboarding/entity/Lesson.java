@@ -1,14 +1,14 @@
 package com.onboarding.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
 @Entity
+@Getter
+@Setter
 @Table(name = "lesson")
 public class Lesson {
     @Id

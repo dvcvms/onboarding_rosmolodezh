@@ -1,6 +1,8 @@
 package com.onboarding.controllers;
 
+import com.onboarding.entity.Subdivision;
 import com.onboarding.entity.User;
+import com.onboarding.repository.SubdivisionRepository;
 import com.onboarding.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,10 +13,12 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class UserController {
     private final UserRepository userRepository;
+    private final SubdivisionRepository subdivisionRepository;
 
     @Autowired
-    public UserController(UserRepository userRepository) {
+    public UserController(UserRepository userRepository, SubdivisionRepository subdivisionRepository) {
         this.userRepository = userRepository;
+        this.subdivisionRepository = subdivisionRepository;
     }
 
     @GetMapping("/amogus")
@@ -26,8 +30,9 @@ public class UserController {
     public String viewUsers(@PathVariable("id") long userId, Model model) {
         User user = userRepository.findById(userId);
         if (user != null) {
-            model.addAttribute("user", user);
+            model.addAttribute("name", user.getName());
         }
+        model.addAttribute("sub", user.getSubdivision().getName());
         return "viewUsers";
     }
 
@@ -42,4 +47,6 @@ public class UserController {
         userRepository.save(user);
         return "redirect:/home";
     }
+
+
 }

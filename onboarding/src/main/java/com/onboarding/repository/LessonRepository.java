@@ -11,7 +11,7 @@ public interface LessonRepository extends CrudRepository<Lesson, Long> {
 
     List<Lesson> findAll();
 
-    Lesson findLessonById(long lessonId);
+    Lesson findById(long lessonId);
 
     List<Lesson> findLessonsByCourseId(long courseId);
 

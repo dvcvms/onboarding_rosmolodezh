@@ -17,6 +17,7 @@ public class Subdivision {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long subdivisionId;
+    private String name;
     @OneToMany(mappedBy = "subdivision")
     private List<User> user;
 

@@ -7,7 +7,8 @@
 <body>
 
 <ul>
-    <p th:text="${'Имя пользователя: ' + user.getName()}">VALUE</p>
+    <p th:text="'Имя пользователя: ' +  ${name}">VALUE</p>
+    <p th:text="'Подразделение: ' + ${sub}"></p>
 </ul>
 
 </body>
