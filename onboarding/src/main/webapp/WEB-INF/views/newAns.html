@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<p>Введите новый ответ</p>
+
+<div class="container">
+  <div class="row">
+    <form th:method="POST" th:action="@{/ans}" th:object="${newAns}">
+      <div class="form-group">
+        <label for="text">Имя: </label>
+        <input type="text" th:field="*{text}" id="text"/>
+        <br/>
+        <label for="question">Описание: </label>
+        <input type="text" th:field="*{question}" id="question"/>
+        <br/>
+        <label for="author">Описание: </label>
+        <input type="text" th:field="*{author}" id="author"/>
+        <br/>
+        <input type="submit" value="Добавить пользователя">
+      </div>
+    </form>
+
+  </div>
+</div>
+</body>
+</html>

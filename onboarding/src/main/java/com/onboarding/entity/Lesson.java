@@ -3,6 +3,8 @@ package com.onboarding.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
@@ -19,4 +21,6 @@ public class Lesson {
 
     @ManyToOne
     private Course course;
+    @OneToMany(mappedBy = "lesson")
+    List<QuestionEntity> questions;
 }
