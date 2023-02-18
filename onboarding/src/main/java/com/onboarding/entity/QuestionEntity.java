@@ -25,15 +25,15 @@ public class QuestionEntity {
     private Long id;
     private String text;
     @ManyToOne
-    @JoinColumn(name="lesson_id")
     private Lesson lesson;
     @Column(updatable = false)
     @JsonFormat(shape=JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime creationDate;
+    private LocalDateTime creationDate= LocalDateTime.now();
     @ManyToOne
     @JoinColumn(name="user_id", nullable = false, updatable = false)
     private User author;
     @OneToMany(mappedBy = "question", orphanRemoval = true)
     List<AnswerEntity> answers;
+
 
 }

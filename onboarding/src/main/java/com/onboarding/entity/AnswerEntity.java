@@ -18,7 +18,6 @@ public class AnswerEntity {
     private Long id;
     private String text;
     @ManyToOne
-    @JoinColumn(name="question_id")
     private QuestionEntity question;
     @ManyToOne
     @JoinColumn(name="user_id", nullable = false, updatable = false)

@@ -10,8 +10,7 @@ public interface AnswerRepository extends CrudRepository<AnswerEntity, Long> {
     /**
      * Репозиторий офферов для клиента
      */
-    List<AnswerEntity> findAllByUserId(long userId);
-    List<AnswerEntity> findAllByAnswerId(long userId);
+
     AnswerEntity save(AnswerEntity answer);
     }
 

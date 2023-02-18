@@ -13,7 +13,7 @@ public interface QuestionRepository  extends CrudRepository<QuestionEntity, Long
     /**
      * Репозиторий офферов для клиента
      */
-    List<QuestionEntity> findAllByUserId(long userId);
-    List<QuestionEntity> findAllByLessonId(long lessonId);
+    QuestionEntity findById(long id);
+
     QuestionEntity save(QuestionEntity question);
 }
