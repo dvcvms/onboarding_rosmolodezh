@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="../css/bootstrap-grid.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/QuestionForm.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -35,69 +36,23 @@
     </div>
   </header>
   <!--end of header-->
-  <section class="profile">
-    <div class="row lk">
-      <div class=" col-md-6  profile-left">
-        <a class="photo" ><img src="../img/ava.png"></a>
-        <div class="profile-name">
-          Имя<br>
-          Фамилия<br>
-        </div>
-      </div>
-      <div class=" profile-right">
-        <div class="rect-for-profile">
-          <form action="#">
-            <div class="row">
-              <div class ="col-md-6"></div>
-              <div class ="col-md-6"></div>
-            </div>
-            <div class="row">
-              <div class ="col-md-6 save-profile">Имя</div>
-              <div class ="col-md-6 ">
-                <div class="data-of-person">Имя</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class ="col-md-6 save-profile">Фамилия</div>
-              <div class ="col-md-6">
-                <div class="data-of-person">Фамилия</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class ="col-md-6 save-profile">Дата рождения</div>
-              <div class ="col-md-6">
-                <div class="data-of-person">Дата рождения</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class ="col-md-6 save-profile">Почта</div>
-              <div class ="col-md-6">
-                <div class="data-of-person">Почта</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class ="col-md-6 save-profile">Телефон</div>
-              <div class ="col-md-6">
-                <div class="data-of-person">Телефон</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class ="col-md-6 save-profile" ></div>
-              <div class ="col-md-6">
-              </div>
-
-            </div>
-            <div class="row">
-              <div class ="col-md-12 save-profile" >
-                <button type="button"  class="save" onclick="window.location.href='Profile.html'">Изменить профиль</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-
+<section class="profile">
+  <div class="row lk">
+    <div class="rect-for-profile">
+        <form action="#" method="post">
+            <h1>Тема вопроса</h1>
+            <input name="theme" type="text" placeholder="Введите тему вопроса"/>
+            <h2>Вопрос:</h2>
+            <textarea name="question" cols="30" rows="10" placeholder="Введите ваш вопрос"></textarea>
+            <button class="ask" type="submit">Отправить</button>
+        </form>
     </div>
-  </section>
+  </div>
+
+</section>
+
+
+
 
 
   <footer>

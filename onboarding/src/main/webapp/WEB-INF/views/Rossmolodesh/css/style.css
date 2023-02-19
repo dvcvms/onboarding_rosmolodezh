@@ -1,3 +1,4 @@
+
 body{
     margin-top: 0px;
     background: #D9D9D9;
@@ -20,6 +21,13 @@ body{
 }
 .container{
     margin: 0 auto;
+}
+:hover{
+    transition: .2s ease-in-out;
+}
+
+button{
+    cursor: pointer;
 }
 @media only screen and (min-width: 768px) and (max-width:1300px){
     body {
@@ -301,11 +309,29 @@ section.profile{
     width: 1100px;
     height: 745px;
     margin-top: -70px;
+    display: block;
     overflow: auto;
     margin-right: 100px;
 }
+.blocks-q{
+    width: 1100px;
+    height: 745px;
+    margin-top: -70px;
+    display: block;
+    overflow: auto;
+    margin-left: 270px;
+}
 .prog{
     width: 600px;
+}
+.achieve-q{
+    width: 1800px;
+    height: 135px;
+    font-size: 48px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 100px;
+
 }
 .achieve{
     width: 1800px;
@@ -325,6 +351,15 @@ section.profile{
     padding-top: 10px;
 }
 .oneblock{
+    width: 900px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 273px;
+    margin-bottom: 20px;
+    background-color: rgba(137,96,210,0.8);
+}
+.oneblock-q{
     width: 900px;
     display: block;
     margin-left:auto;
