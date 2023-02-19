@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul>
+    <p th:text="'Имя пользователя: ' +  ${name}">VALUE</p>
+    <p th:text="'Подразделение: ' + ${sub}"></p>
+    <p th:text="'Список уведомлений' + ${notifications}"></p>
+</ul>
+
+</body>
+</html>

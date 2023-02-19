@@ -1,0 +1,76 @@
+.lesson-block{
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.lesson-address{
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.white{
+    background-color: white;
+}
+.lesson-address h1{
+    font-size: 44px;
+    padding-left: 6%;
+}
+button.ansQuest{
+
+    background-color: var(--primary-color-green);
+    border-radius: 50px;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    border:none;
+    padding: 15px 27px;
+    font-size: 36px;
+}
+.lesson-content{
+    display: block;
+    background-color: white;
+    padding: 25px 12%;
+    font-size: 32px;
+    overflow: auto;
+}
+
+.lesson-content h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.lesson-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-top: 2%;
+}
+.lesson-content p{
+    font-size: 24px;
+    text-align: justify;
+    text-indent: 6%;
+    line-height: 35px;
+}
+
+.lesson-content-image{
+    margin-top: 2%;
+    position: relative;
+    justify-self: center;
+    margin-left: 12%;
+    margin-bottom: 1%;
+}
+.lesson-content-image img{
+    display: block;
+    width: 90%;
+}
+.lesson-content-image h3{
+    padding-top: 1%;
+    text-align: center;
+    text-indent: 0;
+    font-size: 24px;
+    font-style: italic;
+}
+
+
+
