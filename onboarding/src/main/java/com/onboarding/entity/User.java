@@ -38,4 +38,13 @@ public class User {
     //public User(Long statusId) {
        // this.statusId = statusId;
     //}
+    @OneToMany(mappedBy = "userId")
+    private List<Notification> notificationList;
+    public void addNotification(Notification notification){
+        notificationList.add(notification);
+    }
+
+    public void removeNotification(Long notificationId){
+
+    }
 }
