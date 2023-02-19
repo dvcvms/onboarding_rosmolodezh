@@ -14,6 +14,18 @@ div{
     margin-left: 20%;
     margin-top: 5%;
 }
+button.newQuest{
+
+    background-color: var(--primary-color-green);
+    border-radius: 50px;
+    box-shadow: 4px 4px 2px  rgba(0,0,0,0.5);
+    border:none;
+    padding: 15px 27px;
+    font-size: 36px;
+}
+button.newQuest:hover{
+    background-color: var(--button-color-hover-green);
+}
 .lesson-blocks{
     display: block;
     height: 700px;
