@@ -10,6 +10,7 @@ form h1{
 form h2{
     text-align: center;
     font-size: 32px;
+    padding: 2%;
 }
 textarea{
     resize: none;
@@ -21,9 +22,10 @@ textarea{
     border-radius: 15px;
     padding: 5px;
     margin-left: 10%;
+    border: 2px solid black;
 }
 input{
-    
+    border: 2px solid black;
     margin-left: 10%;
 }
 .rect-for-form{
@@ -49,4 +51,9 @@ button.ask{
     margin-top: 10px;
     margin-left:162px;
     z-index: 5;
+}
+
+button.ask:hover{
+    background-color: var(--button-color-hover-green);
+    
 }
